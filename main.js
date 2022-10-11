@@ -8,3 +8,4 @@ const chart = new Chart(ctx, {
         }]
     }
 });
+jgjh
