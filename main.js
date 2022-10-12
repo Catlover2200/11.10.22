@@ -48,3 +48,15 @@ const chart = new Chart(ctx, {
 
 });
 
+const ctx2 = document.querySelector('#chart2').getContext('2d');
+const  chart2 = new Chart(ctx2, {
+    type: 'bar',
+    data: {
+        labels: ['USA', 'CANADA', 'FRANCE', 'BRAZIL', 'GERMANY'],
+        datasets: [{
+            data: [157, 107, 65, 81, 62]}
+            ]
+    }
+    });
+
+
