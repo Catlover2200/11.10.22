@@ -33,7 +33,18 @@ const chart = new Chart(ctx, {
                 ]
             }
         ],
+
     },
+    options: {
+        scales: {
+            y: {
+                title: {
+                    display: true,
+                    text: "USD $"
+                }
+            }
+        }
+    }
 
 });
 
