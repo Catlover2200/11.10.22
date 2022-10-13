@@ -1,0 +1,47 @@
+#first-chart {
+    position: relative;
+}
+
+#text {
+    position: absolute;
+    right: 85px;
+    top: 65px;
+    width: 350px;
+    background-color: lightpink;
+    border-style: groove;
+    box-shadow: 10px 5px;
+    padding: 12px;
+}
+
+
+#title {
+    position: center;
+    margin-left: 500px;
+    font-size: xx-large;
+    padding-bottom: 15px;
+}
+
+#graph-title1 {
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+p {
+    background-color: white;
+
+}
+
+div {
+    padding: 30px;
+
+}
+
+#second-chart {
+    position: relative;
+}
+
+#second-graph-title {
+    position: absolute;
+
+
+}

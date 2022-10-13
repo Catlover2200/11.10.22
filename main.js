@@ -4,10 +4,14 @@ const  chart = new Chart(ctx, {
     data: {
         labels: ['USA', 'CANADA', 'FRANCE', 'BRAZIL', 'GERMANY'],
         datasets: [{
-            label: 'Countries',
-            data: [523.06, 303.96, 195.10, 190.10, 156.48]}
-        ]
+            data: [523.06, 303.96, 195.10, 190.10, 156.48],
+            backgroundColor: ['rgba(255, 99, 132, 1.0)', 'lightgrey', 'lightgrey','lightgrey', 'lightgrey']
+
+        }
+
+        ],
     },
+
     options: {
         scales: {
             y: {
@@ -16,10 +20,15 @@ const  chart = new Chart(ctx, {
                     text: "USD $"
                 }
             }
+        },plugins: {
+            legend: {
+                display: false
+            }
         }
     }
 
 });
+
 
 const ctx2 = document.querySelector('#chart2').getContext('2d');
 const chart2 = new Chart(ctx2, {
