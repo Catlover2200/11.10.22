@@ -1,12 +1,13 @@
 #first-chart {
     position: relative;
+
 }
 
 #text {
     position: absolute;
-    right: 85px;
-    top: 65px;
-    width: 350px;
+    left: 150px;
+    top: 10px;
+    width: 260px;
     background-color: lightpink;
     border-style: groove;
     box-shadow: 10px 5px;
@@ -16,7 +17,7 @@
 
 #title {
     position: center;
-    margin-left: 500px;
+    margin-left: 350px;
     font-size: xx-large;
     padding-bottom: 15px;
 }
@@ -38,10 +39,28 @@ div {
 
 #second-chart {
     position: relative;
+    padding-top: 50px;
 }
 
-#second-graph-title {
+#graph-title2 {
     position: absolute;
+    font-size: x-large;
+    font-weight: lighter;
+}
 
+#text2
+{
+    position: absolute;
+    right: 90px;
+    top: 100px;
+    width: 180px;
+    background-color: lightpink;
+    border-style: groove;
+    box-shadow: 10px 5px;
+    padding: 12px;
+}
 
+main {
+    padding-right: 200px;
+    padding-left: 100px;
 }
