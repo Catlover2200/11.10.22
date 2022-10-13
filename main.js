@@ -4,9 +4,21 @@ const  chart = new Chart(ctx, {
     data: {
         labels: ['USA', 'CANADA', 'FRANCE', 'BRAZIL', 'GERMANY'],
         datasets: [{
-            data: [157, 107, 65, 81, 62]}
+            label: 'Countries',
+            data: [523.06, 303.96, 195.10, 190.10, 156.48]}
         ]
+    },
+    options: {
+        scales: {
+            y: {
+                title: {
+                    display: true,
+                    text: "USD $"
+                }
+            }
+        }
     }
+
 });
 
 const ctx2 = document.querySelector('#chart2').getContext('2d');
